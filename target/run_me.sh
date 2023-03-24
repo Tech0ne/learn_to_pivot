@@ -1,4 +1,4 @@
 #!/bin/bash
 
-/usr/sbin/vsftpd -obackground=NO &
+python3 /root/server.py &
 /usr/sbin/sshd -D
