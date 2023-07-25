@@ -6,7 +6,7 @@ COPY ./apache.conf /usr/local/apache2/conf/httpd.conf
 
 RUN apt-get update
 
-RUN apt-get install -y openssh-server sudo vim
+RUN apt-get install -y openssh-server sudo vim net-tools
 
 RUN mkdir /var/run/sshd
 
